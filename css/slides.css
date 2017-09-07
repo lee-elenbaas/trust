@@ -1,7 +1,7 @@
 @font-face{
-	font-family: 'FuturaHandwritten';
+	font-family: 'GveretLevinAlefAlefAlef-Regular';
 	font-style: normal;
-	src: url('FuturaHandwritten.ttf') format('truetype');
+	src: url('GveretLevinAlefAlefAlef/web/GveretLevinAlefAlefAlef-Regular.ttf') format('truetype');
 }
 
 html,body{
@@ -16,9 +16,10 @@ body{
 
 	background: #fff;
 
-	font-family: 'FuturaHandwritten';
+	font-family: 'GveretLevinAlefAlefAlef-Regular';
 	color: #333;
-	font-size: 20px;
+	font-size: 19px;
+	line-height: 1.5em;
 
 }
 #preloader{
@@ -92,7 +93,7 @@ s{
 #sound #sound_on, #sound #sound_off{
 	left: 52px;
     font-size: 30px;
-    line-height: 55px;
+    line-height: 45px;
 }
 #sound #sound_on{
 	color:#fff;
@@ -201,7 +202,7 @@ s{
 }
 .button #text{
 	
-	font-family: 'FuturaHandwritten';
+	font-family: 'GveretLevinAlefAlefAlef-Regular';
 	color: #000;
 	font-size: 24px;
 
@@ -278,7 +279,7 @@ s{
 
 #sandbox_tabs{
 	position: absolute;
-	left: 460px; top:-10px;
+	left: -460px; top:-10px;
 	background: url(../assets/ui/sandbox_tabs.png);
 	width:500px; height:470px;
 	background-size: auto 100%;
@@ -367,14 +368,15 @@ s{
 .sandbox_pop_icon{
 	width: 40px;
 	height: 40px;
+	left: 160px;
 	background: url(../assets/ui/sandbox_hats.png);
 	background-size: auto 100%;
 }
 .sandbox_pop_label{
 	font-size: 18px;
-    width: 150px;
+    width: 140px;
     top: 8px;
-    left: 50px;
+    left: 15px;
 }
 
 /*************************/
@@ -411,11 +413,11 @@ s{
 }
 #scoreboard > div:nth-child(1){
 	left: 20px;
-    top: 21px;
+    top: 29px;
 }
 #scoreboard > div:nth-child(2){
 	right: 15px;
-    top: 21px;
+    top: 29px;
 }
 
 /*************************/
@@ -436,7 +438,7 @@ s{
 }
 .character #desc{
 	width: calc(100% - 100px);
-	font-size: 18px;
+	font-size: 20px;
 	height: 114px;
 	right: 0;
 	line-height: 1.2em;
@@ -451,9 +453,9 @@ s{
 .character #peep[char=random]{ background-position: -735px 0; }
 
 .tft{ color:#4089DD; }
-.all_d{ color:#52537F; }
+.all_d{ color:#2b00ff; }
 .all_c{ color:#FF75FF; }
-.grudge{ color:#efc701; }
+.grudge{ color:#ffd000; }
 .prober{ color:#f6b24c; }
 .tf2t{ color:#88A8CE; }
 .pavlov{ color:#86C448; }
