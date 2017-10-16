@@ -10,8 +10,8 @@ var PEEP_METADATA = {
 };
 
 var PD = {};
-PD.COOPERATE = "COOPERATE";
-PD.CHEAT = "CHEAT";
+PD.COOPERATE = "נשתף פעולה";
+PD.CHEAT = "נרמה";
 
 PD.PAYOFFS_DEFAULT = {
 	P: 0, // punishment: neither of you get anything
