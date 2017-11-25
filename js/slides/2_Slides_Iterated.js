@@ -231,7 +231,7 @@ SLIDES.push({
 		// Score
 		self.add({
 			id:"score2", type:"TextBox",
-			x:114, y:44, width:151, height:132, align:"right", size:123,
+			x:114, y:100, width:151, height:132, align:"right", size:123,
 			text: _.yourTotalScore+""
 		});
 
@@ -277,7 +277,7 @@ SLIDES.push({
 		// Next...
 		self.add({
 			id:"next", type:"TextBox",
-			x:104, y:478, width:447, height:37,
+			x:104, y:485, width:425, height:37,
 			text_id: "characters_teaser"
 		});
 
