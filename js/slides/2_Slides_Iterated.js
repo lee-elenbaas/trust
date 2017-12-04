@@ -277,7 +277,7 @@ SLIDES.push({
 		// Next...
 		self.add({
 			id:"next", type:"TextBox",
-			x:104, y:485, width:425, height:37,
+			x:80, y:485, width:425, height:37,
 			text_id: "characters_teaser"
 		});
 
