@@ -67,7 +67,7 @@ SLIDES.push({
 
 		// Button
 		self.add({
-			id:"loading_button", type:"Button", x:382, y:410,
+			id:"loading_button", type:"Button", x:382, y:425,
 			text_id:"loading",
 			active:false
 		});
@@ -112,13 +112,13 @@ SLIDES.push({
 		// Circular Wordbox
 		self.add({
 			id:"intro_text", type:"TextBox",
-			x:130, y:10, width:700, height:500, align:"center",
+			x:130, y:0, width:700, height:500, align:"center",
 			text_id:"intro"
 		});
 
 		// Button
 		self.add({
-			id:"intro_button", type:"Button", x:304, y:466, size:"long",
+			id:"intro_button", type:"Button", x:304, y:480, size:"long",
 			text_id:"intro_button", 
 			message:"slideshow/scratch"
 		});

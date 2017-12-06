@@ -34,7 +34,7 @@ function Iterated(config){
 	self.dom.appendChild(app.view);
 
 	// LABELS
-	var _l1 = _makeLabel("label_they_cooperate", {x:354, y:34, rotation:45, align:"center", color:"#333333", size:15, width:70, lineHeight:1});
+	var _l1 = _makeLabel("label_they_cooperate", {x:354, y:34, rotation:45, align:"center", color:"#333333", size:15, width:85, lineHeight:1});
 	self.dom.appendChild(_l1);
 	var _l2 = _makeLabel("label_you_cooperate", {x:272, y:35, rotation:-45, align:"center", color:"#333333", size:15, width:70, lineHeight:1});
 	self.dom.appendChild(_l2);
